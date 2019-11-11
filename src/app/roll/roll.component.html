@@ -1,8 +1,0 @@
-<ul *ngFor="let rollelement of roller">
-    <li [title]="rollelement + ' confirmed'">
-        <button (click)="alertroll(rollelement)">{{rollelement}}</button>
-        <a [routerLink]="['/tutors', rollelement]">Open</a>
-    </li>
-</ul>
-
-<button (click)="alertroll('Alerted')">Alert me</button>
